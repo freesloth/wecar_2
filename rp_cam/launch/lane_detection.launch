@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<launch>
+
+   <include file="$(find vesc_driver)/launch/vesc_driver_node.launch">
+   </include>
+
+   <include file="$(find usb_cam)/launch/usb_cam-test.launch">
+   </include>
+
+   <node name="lane_detection" pkg="lane_detection" type="wecar_lane_detection_ROS.py" output="screen" >
+   </node>
+
+</launch>

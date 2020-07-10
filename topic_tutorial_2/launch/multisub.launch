@@ -1,0 +1,12 @@
+<launch>
+   
+   <!--publisher node -->
+   <node pkg="topic_tutorial_2" type="plant.py" name="plant"/>
+
+   <!--subsciber node -->
+   <node pkg="topic_tutorial_2" type="controller.py" name="controller"/>
+
+   <!-- visualisation with rqt -->
+   <node pkg="rqt_gui" type="rqt_gui" name="rqt_gui"/>
+
+</launch>

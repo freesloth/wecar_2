@@ -1,0 +1,4 @@
+roscore
+rosrun usb_cam usb_cam_node
+python usb_test.py 
+

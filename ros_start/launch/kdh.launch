@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<launch>
+
+
+
+
+  <node name="donghyun" pkg="ros_start" type="donghyun.py" output="screen">
+  </node>
+  <node name="kunsan" pkg="ros_start" type="kunsan.py" output="screen">
+  </node>
+</launch>

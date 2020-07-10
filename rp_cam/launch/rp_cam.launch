@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<launch>
+
+   <include file="$(find usb_cam)/launch/usb_cam.launch">
+   </include>
+
+   <node name="usb_tset" pkg="joosun_boss" type="usb_tset.py" output="screen">
+   </node>
+
+</launch>
